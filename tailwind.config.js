@@ -31,7 +31,11 @@ export default {
       // => @media (min-width: 1536px) { ... }
     },
   },
-  extend: {},
+  extend: {
+    borderRadius: {
+      xl: "2.5rem",
+    },
+  },
   variants: {},
   plugins: [],
 };
